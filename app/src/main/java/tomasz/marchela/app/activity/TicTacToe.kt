@@ -86,7 +86,7 @@ class TicTacToe : AppCompatActivity()
             else
                 shakeBlocker--
         }
-        override fun onAccuracyChanged(sensor: Sensor, accuracy: Int) {/*empty because had to be implemented*/}
+        override fun onAccuracyChanged(sensor: Sensor, accuracy: Int) {/*abc*/}
     }
     override fun onResume() {
         sensorManager?.registerListener(sensorListener, sensorManager!!.getDefaultSensor(

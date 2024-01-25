@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Mobilki</string>
     <string name="become_an_artist">Become an artist</string>
-    <string name="read_some_bible">Read some bible</string>
+    <string name="read_some_bible">Absolve yourself</string>
     <string name="turn">Turn X</string>
     <string name="shake_info">Shake to reset</string>
     <string name="shake_info_land">Shake to reset</string>
