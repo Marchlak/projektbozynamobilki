@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.TicTacToe">
+
+    <TextView
+        android:id="@+id/quote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text=""
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/buttonBibleTicTacToe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/play_a_game"
+        android:layout_below="@+id/quote"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/buttonBiblePaint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/become_an_artist"
+        android:layout_below="@+id/buttonBibleTicTacToe"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
